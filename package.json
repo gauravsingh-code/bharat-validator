@@ -1,12 +1,36 @@
 {
-  "name": "ind-validator",
+  "name": "bharat-validator",
   "version": "1.0.0",
   "main": "index.js",
+  "files":[
+    "index.js",
+    "validators/",
+    "README.md"
+  ],
   "scripts": {
     "test": "node --test tests/validators.test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "keywords": [
+    "india",
+    "validation",
+    "mobile",
+    "pan",
+    "gst",
+    "ifsc",
+    "pincode"
+  ],
+  "author": "gauravsingh-code",
+  "license": "MIT",
+  "repository": {
+    "type":"git",
+    "url": "https://github.com/gauravsingh-code/bharat-validator.git"
+  },
+  "homepage": "https://github.com/gauravsingh-code/bharat-validator#readme",
+  "bugs": {
+    "url": "https://github.com/gauravsingh-code/bharat-validator/issues"
+  },
+   "engines": {
+    "node": ">=18"
+  },
+  "description": "Lightweight, zero-dependency validators for common Indian formats."
 }
