@@ -1,4 +1,4 @@
-# ind-validator
+# bharat-validator
 
 Lightweight, zero-dependency validators for common Indian formats.
 
@@ -16,7 +16,7 @@ Lightweight, zero-dependency validators for common Indian formats.
 ## Installation
 
 ```bash
-npm install ind-validator
+npm install bharat-validator
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ const {
   isValidMobile,
   isValidPincode,
   isValidEmail,
-} = require('ind-validator');
+} = require('bharat-validator');
 
 isValidPAN('ABCDE1234F');          // true
 isValidGST('27ABCDE1234F1Z5');    // true
